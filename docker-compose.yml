@@ -10,7 +10,5 @@ services:
       - "80:80"
     environment:
       SOURCES: |
-        ch1     rtsp://192.168.1.5:554/ch1
-        ch2     rtsp://192.168.1.5:554/ch2
-        ch1_hd  http://192.168.1.6/stream/channelid/8967896?profile=pass
-        ch2_hd  http://192.168.1.6/stream/channelid/4969639?profile=pass
+        ch1     http://144.217.70.181:9587/hin2/HUNGAMA/tracks-v1a1/mono.m3u8?token=test
+        
